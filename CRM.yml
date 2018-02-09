@@ -6,4 +6,7 @@ eureka:
       defaultZone: http://127.0.0.1/eureka/
 spring:
   profiles: online
+  application:
+    name: CRM-${spring.profiles}
+
 
